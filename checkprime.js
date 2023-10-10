@@ -1,15 +1,14 @@
 
-let gg= 12;
+let gg= 13;
 
 let count=0;
 
-for(let i=1; i>=gg; i++){
-    if(gg%i==2){
-        count++
+for(let i=1; i<=gg; i++){
+    if(gg%i==0){
+        count+=1
     }
 
 }
-
 if (count == 2){
     console.log("Yes, It is a prime number")
 }
