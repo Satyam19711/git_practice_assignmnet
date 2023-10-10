@@ -3,8 +3,8 @@ let gg= 12;
 
 let count=0;
 
-for(let i=1; i>=gg; i++){
-    if(gg%i==2){
+for(let i=1; i<=gg; i++){
+    if(gg%i==0){
         count++
     }
 
